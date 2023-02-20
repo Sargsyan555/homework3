@@ -14,4 +14,4 @@ function getFrequencies(array){
         return acc
     }, {})
 }
-console.log(getFrequencies([true, false, true, false, false]));;
+console.log(getFrequencies(["A", "B", "A", "A", "A"]));
