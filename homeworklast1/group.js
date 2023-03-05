@@ -2,7 +2,6 @@
 // group([1, 2, 3, 4], 2) ➞ [[1, 2], [3, 4]]
 // group([1, 2, 3, 4, 5, 6, 7], 4) ➞ [[1, 2, 3, 4], [5, 6, 7]]
 // group([1, 2, 3, 4, 5], 1) ➞ [[1], [2], [3], [4], [5]]
-let arr = 5
 function group(array, number) {
     let newArr = []
     let k = 0
