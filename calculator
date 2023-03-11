@@ -1,0 +1,24 @@
+/*2) գրեք Calculator constructor, որը կունենա add, subtract, multiply ու divide մեթոդները։ Օրինակ՝
+function Calculator() {
+   // ձեր կոդը
+}
+const calculator = new Calculator()
+//
+// calculator.add(10, 5) => 15
+*/
+function Calculator(numberOne, numberSecond){
+    this.add  =function (){
+        return numberOne + numberSecond
+    }
+    this.subttract = function (){
+        return numberOne - numberSecond
+    }
+    this.multiplay = function (){
+        return numberOne * numberSecond
+    }
+    this.divide = function (){
+        return numberOne / numberSecond
+    }
+}
+const calculator = new Calculator(1, 5)
+console.log(calculator.add())
