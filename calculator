@@ -6,19 +6,19 @@ const calculator = new Calculator()
 //
 // calculator.add(10, 5) => 15
 */
-function Calculator(numberOne, numberSecond){
-    this.add  =function (){
+function Calculator(){
+    this.add  =function (numberOne, numberSecond){
         return numberOne + numberSecond
     }
-    this.subttract = function (){
+    this.subttract = function (numberOne, numberSecond){
         return numberOne - numberSecond
     }
-    this.multiplay = function (){
+    this.multiplay = function (numberOne, numberSecond){
         return numberOne * numberSecond
     }
-    this.divide = function (){
+    this.divide = function (numberOne, numberSecond){
         return numberOne / numberSecond
     }
 }
-const calculator = new Calculator(1, 5)
-console.log(calculator.add())
+const calculator = new Calculator()
+console.log(calculator.add(1, 5))
